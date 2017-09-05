@@ -11,3 +11,6 @@ https://docs.microsoft.com/zh-cn/windows-hardware/design/component-guidelines/ra
 2. Build and download to PCA10028 board.
 3. Turn on win10 PC, and connect to the ble hid device.
 4. Press the button 0, the PC would display the wheel if connected successfully.
+
+# Notice
+If comment out the macro OUTPUT_REPORT_ENABLE and macro FEATURE_REPORT_ENABLE,the project will only used input report and it will run successfully.
